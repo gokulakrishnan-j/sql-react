@@ -4,7 +4,7 @@ import '../App.css'
 function Sql() {
     const [sql,setsql]=useState([])
     useEffect(()=>{
-        fetch(`https://sql-71uc.onrender.com/`)
+        fetch(`https://sql-uwg4.onrender.com`)
         .then((data)=>data.json())
         .then((value)=>setsql(value))
     },[])
